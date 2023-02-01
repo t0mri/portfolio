@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>TomRI</title>
+        <link
+            rel="shortcut icon"
+            href="resources/tomri_profile.png"
+            type="image/x-icon"
+        />
+        <link rel="stylesheet" href="style.css" />
+        <script defer src="main.js"></script>
+        <script
+            src="https://kit.fontawesome.com/d8029bf139.js"
+            crossorigin="anonymous"
+        ></script>
+    </head>
+    <body>
+        <nav>
+            <img class="fadeout" src="resources/white+arrow+gif.gif" alt="" />
+            <div class="fadeout" id="clicktip">Click us to contact him</div>
+            <div>
+                <div>
+                    <img
+                        onclick="scrollto('heropage')"
+                        title="Hi!"
+                        src="resources/tomri_profile.png"
+                        alt=""
+                    />
+                    <h3 onclick="scrollto('heropage')">Tom</h3>
+                    <span
+                        onclick="scrollto('heropage')"
+                        style="margin-top: 0.3vmin"
+                        >RI</span
+                    >
+                    <p
+                        onclick="scrollto('contactpage')"
+                        style="margin-left: 4vmin"
+                    >
+                        contact
+                    </p>
+                </div>
+                <div>
+                    <p onclick="scrollto('aboutpage')">about</p>
+                    <p onclick="scrollto('resumebutton')">skills</p>
+                    <p onclick="scrollto('projectspage')">projects</p>
+                </div>
+            </div>
+        </nav>
+
+        <div class="page heropage">
+            <div class="hero">
+                <div class="heroname">
+                    <greet id="welcomegreet">Hello! I'm:</greet>
+                    <div>
+                        <h1>THAMARAI</h1>
+                        <h1>SELVAN</h1>
+                    </div>
+                    <p>
+                        I do graphic designs & Web dev that
+                        <span style="color: red">do sell</span>
+                    </p>
+                </div>
+            </div>
+            <div class="dashedcircle dashedcircle1"></div>
+        </div>
+
+        <div class="heronav">
+            <img class="fadeout" src="resources/white+arrow+gif.gif" alt="" />
+            <img
+                onclick="scrollto('contactpage')"
+                title="you can click me to contact"
+                src="resources/tomri_profile.png"
+                alt=""
+            />
+            <a href="https://bit.ly/tomrilinkedin" target="_blank"
+                ><i class="fa-brands fa-linkedin-in"></i
+            ></a>
+            <a href="https://bit.ly/tomri_behance" target="_blank"
+                ><i class="fa-brands fa-behance"></i
+            ></a>
+            <a href="https://bit.ly/tomriangelco" target="_blank"
+                ><i class="fa-solid fa-hand-peace"></i
+            ></a>
+            <p class="fadeout" id="clicktip2">Click us to contact him</p>
+        </div>
+
+        <div class="page aboutpage">
+            <div class="container">
+                <div>
+                    <h3 style="display: flex">
+                        about <span class="bomb">me:</span>
+                    </h3>
+                    <p>
+                        Howdy, y’all! I’m an
+                        <span style="color: red">
+                            innovative graphic designer
+                        </span>
+                        with a lot of potential and curiosity to design some new
+                        originals. I got into designing by creating logos for my
+                        youtube channels. But things got a bit serious and
+                        graphic designing is my passion now. I’m a
+                        <span style="color: red">pretty fast learner</span>
+                        , so I can pick new styles much faster than usual. A
+                        little story right here, I got to an intern at a startup
+                        and I could pick their style up just within one and half
+                        days to be precise.
+                    </p>
+                    <button
+                        id="resumebutton"
+                        onclick="hideshow('resume')"
+                        style="margin: 2vmin 0 0 87%"
+                    >
+                        Resume
+                    </button>
+                </div>
+            </div>
+            <div class="dashedcircle2container">
+                <div class="dashedcircle dashedcircle2"></div>
+            </div>
+            <!-- src="https://drive.google.com/file/d/1A6--PvhHPoEFnM9vj1REyz3_5wekYWWK/preview?usp=sharing" -->
+            <iframe
+                src="resources/Resume WebDev_compressed.pdf"
+                frameborder="0"
+                scrolling="auto"
+                height="100%"
+                width="100%"
+                class="resume"
+            ></iframe>
+            <a
+                class="resume resumepdf"
+                href="resources/Resume WebDev_compressed.pdf"
+                download=""
+            >
+                <button>PDF</button></a
+            >
+            <button class="resume resumex" onclick="hideshow('resume')">
+                x
+            </button>
+        </div>
+
+        <div class="skillpage page">
+            <h1>skills:</h1>
+            <div>
+                <p>HTML</p>
+                <p>CSS</p>
+                <p>Javascript</p>
+                <p>Git</p>
+                <p>VScode</p>
+            </div>
+            <div>
+                <p>Photoshop</p>
+                <p>Illustrator</p>
+                <p>Aftereffects</p>
+                <p>Premiere Pro</p>
+            </div>
+        </div>
+
+        <div class="page projectspage">
+            <div>
+                <h1 style="display: flex">
+                    <div class="projectopener">
+                        <div>p</div>
+                        <a href="Learning\index.html#bombtexteffect">
+                            <div class="projectpreview projectpreview1">
+                                <h5>Bomb texts</h5>
+                                <h6>it just blasts on hover</h6>
+                            </div></a
+                        >
+                    </div>
+                    <div class="projectopener">
+                        <div>r</div>
+                        <a href="">
+                            <div class="projectpreview projectpreview2">
+                                <h5>Twitch text</h5>
+                                <h6>Twitch new text on hover effect</h6>
+                            </div></a
+                        >
+                    </div>
+                    <div class="projectopener">
+                        <div>o</div>
+                        <a href="">
+                            <div class="projectpreview projectpreview3">
+                                <h5>Menu Page</h5>
+                                <h6>
+                                    its original, background moves with menu
+                                    selected
+                                </h6>
+                            </div></a
+                        >
+                    </div>
+                    <div class="projectopener">
+                        <div>j</div>
+                        <a href="">
+                            <div class="projectpreview projectpreview4">
+                                <h5>Scattering images</h5>
+                                <h6>cluster of images scatter on hover</h6>
+                            </div></a
+                        >
+                    </div>
+                    <div class="projectopener">
+                        <div>e</div>
+                        <a href="">
+                            <div class="projectpreview projectpreview5">
+                                <h5>Parralex slide</h5>
+                                <h6>a smooth slider</h6>
+                            </div></a
+                        >
+                    </div>
+                    <div class="projectopener">
+                        <div>c</div>
+                        <a href="">
+                            <div class="projectpreview projectpreview6">
+                                <h5>Relaxing bubles</h5>
+                                <h6>it just blasts on hover</h6>
+                            </div></a
+                        >
+                    </div>
+                    <div class="projectopener">
+                        <div>t</div>
+                        <a href="">
+                            <div class="projectpreview projectpreview7">
+                                <h5>Mousetrail</h5>
+                                <h6>But they are images</h6>
+                            </div></a
+                        >
+                    </div>
+                    <div class="projectopener">
+                        <div>s</div>
+                        <a href="">
+                            <div class="projectpreview projectpreview8">
+                                <h5>Gallery</h5>
+                                <h6>I'd call it galleryverse</h6>
+                            </div></a
+                        >
+                    </div>
+                    <div class="projectopener">
+                        <div>:</div>
+                        <a>
+                            <div
+                                class="projectpreview projectpreview9"
+                                onclick="scrollto('contactpage')"
+                            >
+                                <h5>like'em?</h5>
+                                <h6>
+                                    I am obsessed with beautifull UI, so i just
+                                    recreate them as hobby
+                                </h6>
+                            </div></a
+                        >
+                    </div>
+                </h1>
+                <p>Yo! hover & click!</p>
+            </div>
+            <div class="dashedcircle dashedcircle3"></div>
+        </div>
+
+        <div class="page contactpage" id="cccc">
+            <div class="dashedcircle dashedcircle4"></div>
+            <div class="formconatiner">
+                <form
+                    action="https://formsubmit.co/e12ed25d2f39ac4c5bbb8636c92bdfe8"
+                    method="post"
+                >
+                    <h1
+                        style="display: flex; column-gap: 3rem; flex-wrap: wrap"
+                    >
+                        Get in
+                        <div class="bomb" title="Bad joke haan..^o^">
+                            touch:
+                        </div>
+                    </h1>
+                    <input type="hidden" name="_captcha" value="false" />
+                    <input disabled type="hidden" name="_next" />
+                    <input
+                        type="email"
+                        name="email"
+                        placeholder="Email Address"
+                        required
+                    />
+                    <input type="text" name="_subject" placeholder="Subject" />
+                    <textarea
+                        type="text"
+                        name="message"
+                        placeholder="Message"
+                        id=""
+                        required
+                    ></textarea>
+                    <button type="submit">Send</button>
+                    <div class="finalcontact">
+                        <a href="https://bit.ly/tomrilinkedin" target="_blank"
+                            ><i class="fa-brands fa-linkedin-in"></i
+                        ></a>
+                        <a href="https://bit.ly/tomri_behance" target="_blank"
+                            ><i class="fa-brands fa-behance"></i
+                        ></a>
+                        <a href="https://bit.ly/tomriangelco" target="_blank"
+                            ><i class="fa-solid fa-hand-peace"></i
+                        ></a>
+                        <a
+                            href="mailto:thamaraiselvanr27@gmail.com"
+                            target="_blank"
+                            ><i class="fa-solid fa-envelope"></i
+                        ></a>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </body>
+</html>
