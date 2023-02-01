@@ -1,7 +1,21 @@
+@font-face {
+    font-family: Gilroytest;
+    src: url("Resources/Fonts/Gilroy-Regular.ttf") format("truetype");
+}
+@font-face {
+    font-family: Gilroytest;
+    src: url("Resources/Fonts/Gilroy-Bold.ttf") format("truetype");
+    font-weight: bold;
+}
+@font-face {
+    font-family: Boho Lifestyle;
+    src: url("Resources/Fonts/Boho-Lifestyle.ttf") format("truetype");
+}
 * {
     margin: 0;
     color: white;
     font-family: Gilroy;
+    /* font-family: Gilroytest; */
     /* border: 1px solid limegreen; */
 }
 ::-webkit-scrollbar {
