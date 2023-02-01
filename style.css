@@ -283,6 +283,7 @@ nav > div > div > img {
     transform: rotateY(180deg) rotateZ(-20deg);
     position: relative;
     z-index: 100;
+    border-radius: 50%;
 }
 .heronav > a {
     position: absolute;
