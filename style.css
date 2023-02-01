@@ -380,35 +380,35 @@ nav > div > div > img {
 }
 .projectpreview1 {
     background: linear-gradient(to top, rgb(0, 0, 0), transparent),
-        url(resources/Screenshots/bomb.png) center center / cover;
+        url(Resources/Screenshots/bomb.png) center center / cover;
 }
 .projectpreview2 {
     background: linear-gradient(to top, rgb(0, 0, 0), transparent),
-        url(resources/Screenshots/twitch.png) center center / cover;
+        url(Resources/Screenshots/twitch.png) center center / cover;
 }
 .projectpreview3 {
     background: linear-gradient(to top, rgb(0, 0, 0), transparent),
-        url(resources/Screenshots/menu.png) center center / cover;
+        url(Resources/Screenshots/menu.png) center center / cover;
 }
 .projectpreview4 {
     background: linear-gradient(to top, rgb(0, 0, 0), transparent),
-        url(resources/Screenshots/scattered\ imgs.png) center center / cover;
+        url(Resources/Screenshots/scattered\ imgs.png) center center / cover;
 }
 .projectpreview5 {
     background: linear-gradient(to top, rgb(0, 0, 0), transparent),
-        url(resources/Screenshots/parallex\ slider.png) center center / cover;
+        url(Resources/Screenshots/parallex\ slider.png) center center / cover;
 }
 .projectpreview6 {
     background: linear-gradient(to top, rgb(0, 0, 0), transparent),
-        url(resources/Screenshots/relax.png) center center / cover;
+        url(Resources/Screenshots/relax.png) center center / cover;
 }
 .projectpreview7 {
     background: linear-gradient(to top, rgb(0, 0, 0), transparent),
-        url(resources/Screenshots/imagetrail.png) center center / cover;
+        url(Resources/Screenshots/imagetrail.png) center center / cover;
 }
 .projectpreview8 {
     background: linear-gradient(to top, rgb(0, 0, 0), transparent),
-        url(resources/Screenshots/galleryverse.png) center center / cover;
+        url(Resources/Screenshots/galleryverse.png) center center / cover;
 }
 input,
 textarea {
