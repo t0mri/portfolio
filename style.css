@@ -14,8 +14,8 @@
 * {
     margin: 0;
     color: white;
+    /* font-family: Gilroy; */
     font-family: Gilroytest;
-    /* font-family: Gilroytest; */
     /* border: 1px solid limegreen; */
 }
 ::-webkit-scrollbar {
@@ -141,10 +141,10 @@ nav > div > div > img {
     height: 100vmin;
     aspect-ratio: 1;
     border-radius: 50%;
-    border: 10vmin dashed rgba(255, 255, 255, .1);
-    background: radial-gradient(rgba(255, 255, 255, .1), transparent 70%);
+    border: 10vmin dashed rgba(255, 255, 255, 0.1);
+    background: radial-gradient(rgba(255, 255, 255, 0.1), transparent 70%);
     pointer-events: none;
-    filter: blur(.9vmin);
+    filter: blur(1vmin);
 }
 .dashedcircle1 {
     bottom: -20vmin;
@@ -499,4 +499,15 @@ button:active {
     margin: 4vmin;
     display: flex;
     justify-content: space-evenly;
+}
+@media (orientation: portrait) {
+    p {
+        font-size: 3vmin;
+    }
+    .skillpage {
+        flex-direction: column;
+    }
+    .skillpage p {
+        text-align: center;
+    }
 }
