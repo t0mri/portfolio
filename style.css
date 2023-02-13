@@ -141,8 +141,8 @@ nav > div > div > img {
     height: 100vmin;
     aspect-ratio: 1;
     border-radius: 50%;
-    border: 10vmin dashed rgba(255, 255, 255, 0.1);
-    background: radial-gradient(rgba(255, 255, 255, 0.1), transparent 70%);
+    border: 10vmin dashed rgba(255, 255, 255, 0.05);
+    background: radial-gradient(rgba(255, 255, 255, 0.05), transparent 70%);
     pointer-events: none;
     filter: blur(1vmin);
 }
